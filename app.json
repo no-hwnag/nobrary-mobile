@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Nomad Movies",
+    "description": "Discover Movies and Series in a beautiful way.",
+    "slug": "nomad-movies",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "githubUrl": "https://github.com/nomadcoders/nomad-movies",
+    "primaryColor": "#000000",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "co.nomadcoders.movieapp",
+      "buildNumber": "1.0.0"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000"
+    },
+    "android": {
+      "package": "co.nomadcoders.nomad_movies",
+      "versionCode": 1
+    }
+  }
+}
